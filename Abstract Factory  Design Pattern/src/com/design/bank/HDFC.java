@@ -13,9 +13,5 @@ private final String bankName;
 		return bankName;
 	}
 	
-	public void getFundInfo(){
-		
-	System.out.println("this is the fund information about hdfc bank");	
-	}
-
+	
 }
