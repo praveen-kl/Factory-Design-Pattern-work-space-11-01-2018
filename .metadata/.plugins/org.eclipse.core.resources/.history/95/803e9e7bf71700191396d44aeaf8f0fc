@@ -1,0 +1,11 @@
+package com.design.bank;
+
+public class SBI implements Bank {
+
+	@Override
+	public String getBankName() {
+	
+		return "SBI";
+	}
+
+}

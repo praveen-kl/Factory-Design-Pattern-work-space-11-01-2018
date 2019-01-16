@@ -1,0 +1,17 @@
+package com.design.loan;
+
+public abstract class Loan {
+
+	protected double rate;
+	
+	abstract void getInterstRate();
+	//I have one concreate method which calculates loanPayment
+	
+	public void caluclateLoanPayment(double loanamount,int years){
+		
+		
+		
+		
+	}
+	
+}

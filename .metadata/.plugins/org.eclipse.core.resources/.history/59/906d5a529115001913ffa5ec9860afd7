@@ -1,0 +1,5 @@
+package com.design.loan;
+
+public abstract class Loan {
+
+}

@@ -1,0 +1,10 @@
+package com.design.loan;
+
+public class HomeLoan extends Loan {
+	@Override
+	void getInterstRate(double rate) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

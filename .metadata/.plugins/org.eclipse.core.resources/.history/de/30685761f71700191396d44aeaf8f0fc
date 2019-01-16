@@ -1,0 +1,10 @@
+package com.design.bank;
+
+public class UNIONBANK implements Bank {
+
+	@Override
+	public String getBankName() {
+		return "UNIONBANK";
+	}
+
+}

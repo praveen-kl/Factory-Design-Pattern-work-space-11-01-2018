@@ -1,0 +1,16 @@
+package com.design.bank;
+
+public class ICICI implements Bank {
+
+	private String bankName;
+	
+	public ICICI() {
+		bankName="ICICI";
+	}
+	@Override
+	public String getBankName() {
+	
+		return bankName;
+	}
+
+}

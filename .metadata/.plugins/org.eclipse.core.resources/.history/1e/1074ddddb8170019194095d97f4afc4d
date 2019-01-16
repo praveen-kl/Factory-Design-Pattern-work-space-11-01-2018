@@ -1,0 +1,11 @@
+package com.design.bank;
+
+public class HDFC implements Bank {
+
+	@Override
+	public String getBankName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

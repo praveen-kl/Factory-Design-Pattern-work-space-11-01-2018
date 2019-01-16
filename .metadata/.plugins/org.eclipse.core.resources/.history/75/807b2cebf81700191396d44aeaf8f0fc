@@ -1,0 +1,9 @@
+package com.design.loan;
+
+public class HomeLoan extends Loan {
+	@Override
+	void getInterstRate(double rate) {
+		this.rate=rate;
+	}
+
+}

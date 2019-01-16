@@ -1,0 +1,17 @@
+package com.design.factory;
+
+import com.design.bank.Bank;
+import com.design.loan.Loan;
+
+public class LoanFactory extends AbstractFactory{
+
+	@Override
+	public Bank getBank(String Bank) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Loan getLoan(String loantype) {
+		return null;
+	}
+}

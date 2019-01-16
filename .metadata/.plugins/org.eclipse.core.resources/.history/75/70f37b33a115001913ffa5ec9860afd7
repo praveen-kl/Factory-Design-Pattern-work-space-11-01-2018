@@ -1,0 +1,14 @@
+package com.design.factory;
+
+public class FactoryCreator {
+
+	public	AbstractFactory getFactoryType(String choice){
+		
+		if(choice.equalsIgnoreCase("Bank"))
+			return new BankFactory();
+		else{
+			return new LoanFactory();
+		}
+		
+	}
+}
